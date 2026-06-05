@@ -1,0 +1,38 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# build files
+build/
+dist/
+**/build/
+**/dist/
+
+# environment variables
+.env
+.env.*
+
+# logs
+*.log
+
+# coverage
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# cache
+.cache/
+.parcel-cache/
+
+# uploads
+uploads/
+temp/
+
+# misc
+*.pem
